@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KOREA — Discover the Beauty of Korea</title>
+<meta name="description" content="Туристический портал о Южной Корее: места, кухня, культура, K-pop и полезные советы для путешествия.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Playfair+Display:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header" id="header">
+  <a href="#home" class="logo">🇰🇷 KOREA</a>
+  <nav class="nav" id="nav">
+    <a href="#home">Главная</a><a href="#places">Места</a><a href="#food">Еда</a><a href="#culture">Культура</a><a href="#kpop">K-pop</a><a href="#fun">Интересное</a><a href="#contacts">Контакты</a>
+  </nav>
+  <div class="tools">
+    <button class="icon-btn" id="themeBtn" aria-label="Сменить тему">🌙</button>
+    <button class="icon-btn burger" id="burger" aria-label="Открыть меню" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+  <div class="hero-in">
+    <p class="hero-ko" lang="ko">한국</p>
+    <h1>ОТКРОЙ ДЛЯ СЕБЯ ЮЖНУЮ КОРЕЮ</h1>
+    <p class="sub">Страна удивительных традиций, современной культуры, невероятной кухни и незабываемых путешествий.</p>
+    <div class="btns"><a href="#culture" class="btn">Исследовать Корею</a><a href="#places" class="btn ghost">Открыть красивые места</a></div>
+  </div>
+  <dl class="hero-facts">
+    <div><dt>Столица</dt><dd>Сеул</dd></div>
+    <div><dt>Население</dt><dd>около 51 млн</dd></div>
+    <div><dt>Язык</dt><dd>корейский (хангыль)</dd></div>
+    <div><dt>Валюта</dt><dd>вона (KRW)</dd></div>
+  </dl>
+</section>
+<div class="dancheong"></div>
+
+<section class="section" id="places">
+  <div class="wrap">
+    <h2 class="rv">Места <small lang="ko">장소</small></h2>
+    <p class="lead rv">Дворцы эпохи Чосон, неоновый Сеул, вулканический остров и горы с древними храмами.</p>
+    <div class="chips rv" id="placeChips"></div>
+    <div class="grid" id="placeGrid"></div>
+  </div>
+</section>
+<svg class="eave to-beige" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 Q720 110 1440 0 V80 H0 Z"/></svg>
+
+<section class="section beige lattice" id="food">
+  <div class="wrap">
+    <h2 class="rv">Еда <small lang="ko">음식</small></h2>
+    <p class="lead rv">Корейский стол — это десятки маленьких блюд, рис, ферментированные овощи и огонь на гриле.</p>
+    <div class="chips rv" id="foodChips"></div>
+    <div class="grid food-grid" id="foodGrid"></div>
+  </div>
+</section>
+<svg class="eave to-white from-beige" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 Q720 110 1440 0 V80 H0 Z"/></svg>
+
+<section class="section" id="culture">
+  <div class="wrap">
+    <h2 class="rv">Культура и история <small lang="ko">문화</small></h2>
+    <p class="lead rv">Традиции, которые живут рядом с самыми современными технологиями.</p>
+    <div class="tabs rv" id="cultTabs"></div>
+    <div class="cult" id="cultBox"></div>
+    <h3 class="tl-title rv">Путь страны</h3>
+    <ol class="timeline" id="timeline"></ol>
+  </div>
+</section>
+<svg class="eave to-dark" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 Q720 110 1440 0 V80 H0 Z"/></svg>
+
+<section class="section dark" id="kpop">
+  <div class="wrap">
+    <h2 class="rv">K-pop и дорамы <small lang="ko">한류</small></h2>
+    <p class="lead rv">Халлю — «корейская волна» — давно вышла за пределы страны и покорила мир.</p>
+    <div class="tabs rv" id="popTabs"></div>
+    <div class="grid pop-grid" id="popGrid"></div>
+  </div>
+</section>
+<svg class="eave to-pink from-dark" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 Q720 110 1440 0 V80 H0 Z"/></svg>
+
+<section class="section pink" id="fun">
+  <div class="wrap">
+    <h2 class="rv">Интересное <small lang="ko">재미</small></h2>
+    <p class="lead rv">Нажмите на карточку, чтобы перевернуть её.</p>
+    <div class="flips" id="facts"></div>
+    <h3 class="tl-title rv">Полезные фразы для путешествия</h3>
+    <div class="flips phr" id="phrases"></div>
+  </div>
+</section>
+<svg class="eave to-white from-pink" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 Q720 110 1440 0 V80 H0 Z"/></svg>
+
+<section class="section" id="contacts">
+  <div class="wrap narrow">
+    <h2 class="rv">Контакты <small lang="ko">연락</small></h2>
+    <p class="lead rv">Планируете поездку или хотите предложить место для сайта? Напишите нам.</p>
+    <form id="form" class="rv" novalidate>
+      <label>Имя<input name="name" type="text" autocomplete="name" required></label>
+      <label>Электронная почта<input name="email" type="email" autocomplete="email" required></label>
+      <label>Сообщение<textarea name="msg" rows="5" required></textarea></label>
+      <p class="form-msg" id="formMsg" role="status"></p>
+      <button class="btn solid" type="submit">Отправить сообщение</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="dancheong"></div><p>© <span id="year"></span> KOREA — Discover the Beauty of Korea. 감사합니다!</p></footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button class="close" id="mClose" aria-label="Закрыть">✕</button>
+    <div class="m-img" id="mImg"></div>
+    <div class="m-body"><h3 id="mTitle"></h3><p class="m-tag" id="mTag"></p><p id="mText"></p><dl id="mInfo"></dl></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
